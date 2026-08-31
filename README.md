@@ -15,7 +15,7 @@ I also work the zkVM/coprocessor boundary — guest program plus on-chain verifi
 
 ## Proof — public demos
 
-- [vault-attack-suite-demo](https://github.com/dersefurkan32-dotcom/vault-attack-suite-demo) — one money-moving identity bug (a split ledger that credits the same deposit twice) shown as a directed PoC, then proven fixed with stateful invariants.
+- [split-ledger-vault-demo](https://github.com/dersefurkan32-dotcom/split-ledger-vault-demo) — one money-moving identity bug (a split ledger that credits the same deposit twice) shown as a directed PoC, then proven fixed with stateful invariants.
 - [pool-invariant-suite-demo](https://github.com/dersefurkan32-dotcom/pool-invariant-suite-demo) — invariant suite for pool accounting: conservation and solvency properties held under stateful fuzzing.
 - [risc0-onchain-verify-demo](https://github.com/dersefurkan32-dotcom/risc0-onchain-verify-demo) — end-to-end zkVM seam: Rust guest → Groth16 receipt → Solidity verifier, with negative tests for tampered journals and wrong image IDs.
 
