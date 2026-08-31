@@ -1,26 +1,31 @@
 # Furkan Derse
 
-Independent attack-test and security review engineer for DeFi protocols.
+Independent security reviewer for DeFi protocols and zkVM integrations.
 
-The deliverable is a repo with green `forge test` output, not a PDF.
+The deliverable is a private Foundry repo with green `forge test` output — not a PDF.
 
-## What I do
+## Work
 
-- **Foundry invariant suites** — stateful fuzzing harnesses built around the identity that actually moves money: receipt ids, epoch indices, match ids, withdrawal cursors, forwarder senders.
-- **Mainnet fork fuzz** — fork tests against your live deployment or a pinned commit, driven through adversarial call sequences.
-- **Upgrade / diff review** — a focused pass over what changed, for teams that just shipped a proxy upgrade or a patch.
-- **Adversarial test packs** — "how would you drain this vault" answered as runnable tests. Every finding is a failing-then-fixed test.
+- **Invariant suites** — stateful fuzzing around the identity that actually moves money: receipt ids, epoch indices, match ids, withdrawal cursors, forwarder senders.
+- **Mainnet-fork tests** — against a live deployment or a pinned commit, authorized scope only.
+- **Upgrade / diff review** — a focused pass over what changed after a proxy upgrade or a patch.
+- **zkVM / coprocessor boundary** — guest program plus on-chain verifier binding: image ID pinning, journal commitment, replay resistance.
 
-I also work the zkVM/coprocessor boundary — guest program plus on-chain verifier binding (image ID pinning, journal commitment, replay resistance). See the [risc0-onchain-verify-demo](https://github.com/dersefurkan32-dotcom/risc0-onchain-verify-demo).
+This is a time-boxed **security review**, not a security audit and not a guarantee. Terms: [SERVICES.md](SERVICES.md).
 
-## Proof — public demos
+## Public samples
 
-- [split-ledger-vault-demo](https://github.com/dersefurkan32-dotcom/split-ledger-vault-demo) — one money-moving identity bug (a split ledger that credits the same deposit twice) shown as a directed PoC, then proven fixed with stateful invariants.
-- [pool-invariant-suite-demo](https://github.com/dersefurkan32-dotcom/pool-invariant-suite-demo) — invariant suite for pool accounting: conservation and solvency properties held under stateful fuzzing.
-- [risc0-onchain-verify-demo](https://github.com/dersefurkan32-dotcom/risc0-onchain-verify-demo) — end-to-end zkVM seam: Rust guest → Groth16 receipt → Solidity verifier, with negative tests for tampered journals and wrong image IDs.
+| Repo | What it shows |
+| --- | --- |
+| [split-ledger-vault-demo](https://github.com/dersefurkan32-dotcom/split-ledger-vault-demo) | Split-ledger identity: one deposit, two independent claims. Directed PoC, then the same conservation invariants on the patched vault. |
+| [pool-invariant-suite-demo](https://github.com/dersefurkan32-dotcom/pool-invariant-suite-demo) | Lending-pool share math: conservation and solvency under stateful fuzzing, plus a first-depositor inflation variant the suite catches. |
+| [risc0-onchain-verify-demo](https://github.com/dersefurkan32-dotcom/risc0-onchain-verify-demo) | zkVM seam: Rust guest → Groth16 receipt → Solidity verifier. Negative tests for a tampered journal and a wrong image ID. |
+| [zkvm-guest-bug-notes](https://github.com/dersefurkan32-dotcom/zkvm-guest-bug-notes) | Curated map of guest-program and on-chain binding bug classes, public references only (0xPARC-style, application boundary). |
+
+Samples are teaching contracts and notes. They are not findings against a live protocol.
 
 ## Availability
 
-Available for new engagements. Scope, process, and terms: [SERVICES.md](SERVICES.md).
+Open for new engagements. Scope, process, and terms: [SERVICES.md](SERVICES.md).
 
-Contact: Telegram [@FURY_Fn](https://t.me/FURY_Fn) · dersefurkan32@gmail.com — replies within 24 hours.
+Contact: **dersefurkan32@gmail.com** · Telegram [@FURY_Fn](https://t.me/FURY_Fn) — replies within 24 hours.
