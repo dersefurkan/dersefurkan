@@ -17,10 +17,10 @@ This is a time-boxed **security review**, not a security audit and not a guarant
 
 | Repo | What it shows |
 | --- | --- |
-| [split-ledger-vault-demo](https://github.com/dersefurkan/split-ledger-vault-demo) | Split-ledger identity: one deposit, two independent claims. Directed PoC, then the same conservation invariants on the patched vault. |
-| [pool-invariant-suite-demo](https://github.com/dersefurkan/pool-invariant-suite-demo) | Two classes (inflation + fee creep), two invariant suites, 32 green local tests, layout-drift guard. Fork / echidna / halmos opt-in. |
-| [risc0-onchain-verify-demo](https://github.com/dersefurkan/risc0-onchain-verify-demo) | zkVM seam: Rust guest → Groth16 receipt → Solidity verifier. Negative tests for a tampered journal and a wrong image ID. |
-| [zkvm-guest-bug-notes](https://github.com/dersefurkan/zkvm-guest-bug-notes) | Curated map of guest-program and on-chain binding bug classes, public references only (0xPARC-style, application boundary). |
+| [split-ledger-vault-demo](https://github.com/dersefurkan/split-ledger-vault-demo) | Money-moving identity, two shapes: split ledgers and a missing queue cursor. Directed PoCs, then conservation *and* per-request invariants on the patched vaults. |
+| [pool-invariant-suite-demo](https://github.com/dersefurkan/pool-invariant-suite-demo) | Two bug classes (first-depositor inflation, performance-fee creep) with directed PoCs, handler invariants with rate-relative rounding bounds, echidna/halmos/slither cross-checks, and a storage-layout drift guard. 32 tests. |
+| [risc0-onchain-verify-demo](https://github.com/dersefurkan/risc0-onchain-verify-demo) | zkVM seam: Rust guest → Groth16 receipt → Solidity verifier. Negative tests for tampered journal, wrong image ID, bad selector — plus pinned replay and seal-malleability behavior, and guest-side rule tests. |
+| [zkvm-guest-bug-notes](https://github.com/dersefurkan/zkvm-guest-bug-notes) | Curated map of guest-program and on-chain binding bug classes, public references only (12 classes, ~45 sources). |
 
 Samples are teaching contracts and notes. They are not findings against a live protocol.
 

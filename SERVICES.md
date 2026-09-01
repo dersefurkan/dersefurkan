@@ -31,6 +31,8 @@ A runnable Foundry repo:
 
 - **Invariant harness** — stateful fuzzing around the money-moving identity, tuned to your deployment
 - **Fork tests** — against a pinned commit or live deployment, authorized scope only
+- **Cross-engine confirmation** — echidna property runs and halmos symbolic checks alongside the Foundry suite, where they add signal
+- **Layout guard** — storage-layout drift check over upgrade diffs, CI-enforced from the first pass
 - **Finding as a test** — where applicable, a failing-then-fixed pair: the sequence that broke the property, and the patch that restores it
 - **Property table** — every tested property and its status
 - **Reproduction** — `forge test` is the report
