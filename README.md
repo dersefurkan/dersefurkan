@@ -18,7 +18,7 @@ This is a time-boxed **security review**, not a security audit and not a guarant
 | Repo | What it shows |
 | --- | --- |
 | [split-ledger-vault-demo](https://github.com/dersefurkan/split-ledger-vault-demo) | Split-ledger identity: one deposit, two independent claims. Directed PoC, then the same conservation invariants on the patched vault. |
-| [pool-invariant-suite-demo](https://github.com/dersefurkan/pool-invariant-suite-demo) | Lending-pool share math: conservation and solvency under stateful fuzzing, plus a first-depositor inflation variant the suite catches. |
+| [pool-invariant-suite-demo](https://github.com/dersefurkan/pool-invariant-suite-demo) | Two classes (inflation + fee creep), two invariant suites, 32 green local tests, layout-drift guard. Fork / echidna / halmos opt-in. |
 | [risc0-onchain-verify-demo](https://github.com/dersefurkan/risc0-onchain-verify-demo) | zkVM seam: Rust guest → Groth16 receipt → Solidity verifier. Negative tests for a tampered journal and a wrong image ID. |
 | [zkvm-guest-bug-notes](https://github.com/dersefurkan/zkvm-guest-bug-notes) | Curated map of guest-program and on-chain binding bug classes, public references only (0xPARC-style, application boundary). |
 
