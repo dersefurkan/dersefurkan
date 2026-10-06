@@ -1,8 +1,8 @@
 # Furkan Derse
 
-Independent security reviewer for DeFi protocols and zkVM integrations.
+One contract, or one zkVM seam. Five business days. **$1,500.** The deliverable is a private Foundry repo, not a PDF and not an audit stamp.
 
-The deliverable is a private Foundry repo with green `forge test` output — not a PDF.
+Site: [dersefurkan.github.io](https://dersefurkan.github.io) · dersefurkan32@gmail.com · Telegram [@FURY_Fn](https://t.me/FURY_Fn)
 
 ## Work
 
@@ -24,8 +24,10 @@ This is a time-boxed **security review**, not a security audit and not a guarant
 
 Samples are teaching contracts and notes. They are not findings against a live protocol.
 
-## Availability
+## The offer
 
-Open for new engagements. Scope, process, and terms: [SERVICES.md](SERVICES.md).
+One surface: one contract family, one merged diff under 800 changed lines, or one guest program plus the verifier that checks it. Five business days after payment. USDC or bank transfer. A 14-day fix re-run is included.
 
-Contact: **dersefurkan32@gmail.com** · Telegram [@FURY_Fn](https://t.me/FURY_Fn) — replies within 24 hours.
+This is a security review of that surface. It is not a claim that the protocol is safe.
+
+Scope and process: [SERVICES.md](SERVICES.md).

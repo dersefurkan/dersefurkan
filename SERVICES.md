@@ -1,58 +1,41 @@
 # Services
 
-Time-boxed security review for DeFi protocols and zkVM integrations. Fixed scope. The deliverable is a repo, not a PDF.
+One surface. Five business days. **$1,500.** The deliverable is a private Foundry repo, not a PDF.
 
-## Engagements
+## The pack
 
-### Review sprint (1–2 weeks, fixed scope)
+You send one of these:
 
-A time-boxed review of a defined target — typically one vault, one matching engine, one upgrade diff, or one zkVM guest plus verifier.
+- one contract family, or
+- one merged diff under 800 changed lines, or
+- one zkVM guest program plus the on-chain verifier that checks it.
 
-Fixed quote after a free 30-minute scope call. Send the repo or the deployment addresses; the quote follows within 24 hours of the call.
+I confirm it fits before you pay. The five days start when the $1,500 lands (USDC or bank transfer). Invoice on request.
 
-### Weekly review retainer
+You get:
 
-For teams that ship continuously. Productized as a monthly subscription:
+- invariant or fork tests aimed at the identity that moves the money on that surface
+- a property table
+- a failing test in the repo when a named property breaks
+- one walkthrough
+- a fix re-run for 14 days after delivery, no second invoice
 
-- Review of new commits and diffs
-- New or updated invariant and fork tests for each change
-- Weekly call on findings
-- Async line between calls
-
-Fixed monthly rate, quoted after the same scope call. Cancel at the end of any month. Same deliverable standard as the sprint.
-
-### Fix review — included
-
-Every finding ships as a failing test. When you patch, I re-run the suite and flip the test to passing — **no extra fee**, within 30 days of delivery.
-
-## What you get
-
-A runnable Foundry repo:
-
-- **Invariant harness** — stateful fuzzing around the money-moving identity, tuned to your deployment
-- **Fork tests** — against a pinned commit or live deployment, authorized scope only
-- **Cross-engine confirmation** — echidna property runs and halmos symbolic checks alongside the Foundry suite, where they add signal
-- **Layout guard** — storage-layout drift check over upgrade diffs, CI-enforced from the first pass
-- **Finding as a test** — where applicable, a failing-then-fixed pair: the sequence that broke the property, and the patch that restores it
-- **Property table** — every tested property and its status
-- **Reproduction** — `forge test` is the report
+A second surface is a second pack, same price, only after the first repo was delivered.
 
 ## What this is not
 
-This is a **security review** and adversarial testing service. It is **not a security audit**, and it is not a guarantee of any kind.
+This is a **security review** of the named surface. It is **not a security audit**, and it is not a guarantee.
 
-Work is best-effort within the booked time. A green suite means the tested properties held under the tested conditions — nothing more.
+A green suite means the tested properties held under the tested conditions. Defense in depth stays with you: another reviewer, a contest, a bounty, and monitoring are still the right next steps for a launch.
 
-Defense in depth stays with you: an additional independent review, a guarded launch, a bug bounty, and on-chain monitoring remain recommended.
+I do not test systems I am not hired to review.
 
 ## Process
 
-1. **Scope call** — 30 minutes, free. Target, scope, constraints.
-2. **Fixed quote** — within 24 hours.
-3. **Repo delivery** — private handoff at the end of the sprint.
-4. **Walkthrough** — findings and properties live.
-5. **Fix-review window** — 30 days, included, per finding.
+1. Email the repo or the diff and name the surface.
+2. I confirm it fits, within one business day.
+3. You pay. The clock starts.
+4. Private repo and a walkthrough on day five.
+5. Fourteen days to re-run after your patch.
 
-Authorized work only. I do not test systems I am not contracted to review.
-
-Contact: **dersefurkan32@gmail.com** · Telegram [@FURY_Fn](https://t.me/FURY_Fn) — replies within 24 hours.
+Contact: **dersefurkan32@gmail.com** · Telegram [@FURY_Fn](https://t.me/FURY_Fn).
