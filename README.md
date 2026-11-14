@@ -32,7 +32,8 @@ Each pack includes a property table, a failing test or a request log when a name
 | [pool-invariant-suite-demo](https://github.com/dersefurkan/pool-invariant-suite-demo) | First-depositor inflation and performance-fee creep. Handler invariants, cross-checks, storage-layout drift. 32 tests. |
 | [risc0-onchain-verify-demo](https://github.com/dersefurkan/risc0-onchain-verify-demo) | Rust guest to Groth16 receipt to Solidity verifier. Negative tests for a tampered journal, a wrong image ID, and a bad selector. |
 | [zkvm-guest-bug-notes](https://github.com/dersefurkan/zkvm-guest-bug-notes) | Guest-program and on-chain binding classes. Public references only. |
-| [app-agent-review-notes](https://github.com/dersefurkan/app-agent-review-notes) | Twenty web and agent classes, each with an example assertion. Same shape as the zk notes. No attack text. |
+| [app-agent-review-notes](https://github.com/dersefurkan/app-agent-review-notes) | Web, web3, and agent classes, each with an example assertion. No attack text. |
+| [Lab notes on the site](https://dersefurkan.github.io/lab/) | Twenty local teaching results. Benchmarks and demos. Not client findings. |
 
 The AI lab note in [AI.md](AI.md) is the same kind of sample. Teaching results. Not a finding against a live product.
 
