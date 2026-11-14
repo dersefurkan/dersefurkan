@@ -1,38 +1,45 @@
 # Services
 
-One surface. Five business days. **$1,500.** The deliverable is a private Foundry repo, not a PDF.
+One surface. Five business days. **$1,500.** USDC or bank transfer. Invoice on request.
 
-## The pack
+The five days start when the payment lands and the scope is already written. I confirm the surface fits before you pay, within one business day.
 
-You send one of these:
+## Packs
 
-- one contract family, or
-- one merged diff under 800 changed lines, or
-- one zkVM guest program plus the on-chain verifier that checks it.
+You send one of these.
 
-I confirm it fits before you pay. The five days start when the $1,500 lands (USDC or bank transfer). Invoice on request.
+**Contract or zkVM.** One contract family, one merged diff under 800 changed lines, or one guest program plus the verifier that checks it. The deliverable is a private Foundry repo.
 
-You get:
+**Web app.** One staging application, one role, and the flows named in writing. Production is out unless the scope says so, and even then there is no destructive test. The deliverable is a private repo of requests, expected state, and observed state.
 
-- invariant or fork tests aimed at the identity that moves the money on that surface
-- a property table
-- a failing test in the repo when a named property breaks
-- one walkthrough
-- a fix re-run for 14 days after delivery, no second invoice
+**AI agent.** One staging chat or tool endpoint. The scope names the tools, the documents, and the tenants. The deliverable is a private repo of tool logs and environment checks. A model sentence alone is not a finding.
 
 A second surface is a second pack, same price, only after the first repo was delivered.
+
+## What you get
+
+- a property table for the named surface
+- a failing test or a recorded request when a named property breaks
+- one walkthrough
+- a fix re-run for 14 days after delivery, no second invoice
 
 ## What this is not
 
 This is a **security review** of the named surface. It is **not a security audit**, and it is not a guarantee.
 
-A green suite means the tested properties held under the tested conditions. Defense in depth stays with you: another reviewer, a contest, a bounty, and monitoring are still the right next steps for a launch.
+A green result means the tested properties held under the tested conditions. Another reviewer, a contest, a bounty, and monitoring stay with you.
 
-I do not test systems I am not hired to review.
+I do not test systems I am not hired to review. A public bug-bounty program is not a substitute for this pack. I do not submit reports for you.
+
+## Web and AI limits
+
+The web pack uses the OWASP Top 10 (2021) as a checklist. A category that the scoped flows do not touch is marked “not in this pack”, not “clean”.
+
+The AI pack does not include a jailbreak corpus, a production prompt dump, or a test of a model vendor’s public API. The target is the application you own: its tools, its data, and its defaults.
 
 ## Process
 
-1. Email the repo or the diff and name the surface.
+1. Email the repo, the diff, or the staging URL, and name the surface.
 2. I confirm it fits, within one business day.
 3. You pay. The clock starts.
 4. Private repo and a walkthrough on day five.
