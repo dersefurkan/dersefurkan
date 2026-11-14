@@ -2,7 +2,7 @@
 
 One staging app. One role. The flows named in the scope. **$1,500.** Five business days.
 
-The checklist is the OWASP Top 10 (2021). A category is in the report only when a scoped flow touches it. The others are marked “not in this pack”.
+The checklist is the OWASP Top 10 (2021). A category is in the report only when a scoped flow touches it. The others are marked “not in this pack”. The class pages and the example assertions are in [app-agent-review-notes](https://github.com/dersefurkan/app-agent-review-notes).
 
 | Category | What the review looks for | Evidence that counts |
 | --- | --- | --- |

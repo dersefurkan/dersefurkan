@@ -16,7 +16,7 @@ The question is whether untrusted text changes a tool call or a record. The mode
 | MCP | Session, transport, and the caller check are separate from the model |
 | Effect | A payment, a file, a ticket, or a secret resource actually changed |
 
-Tools used on a local lab, not as a stamp: promptfoo, garak, AgentDojo, Inspect, DeepTeam, and a local MCP server. A connectivity probe that prints a score is not a finding. Empty input that still produces text is a connectivity check.
+Tools used on a local lab, not as a stamp: promptfoo, garak, AgentDojo, Inspect, DeepTeam, and a local MCP server. A connectivity probe that prints a score is not a finding. Empty input that still produces text is a connectivity check. The class pages are in [app-agent-review-notes](https://github.com/dersefurkan/app-agent-review-notes).
 
 ## Lab note
 
