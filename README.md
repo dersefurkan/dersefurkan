@@ -1,6 +1,6 @@
 # Furkan Derse
 
-One surface. Five business days. **$750.** The deliverable is a private repo and a walkthrough, not a PDF and not an audit stamp.
+One surface. Five business days. **$750.** We test it and write the report: each finding, the evidence, and the fix. Not an audit stamp. Not a detector that keeps running.
 
 Site: [dersefurkan.github.io](https://dersefurkan.github.io) · dersefurkan32@gmail.com · Telegram [@FURY_Fn](https://t.me/FURY_Fn)
 

@@ -8,20 +8,21 @@ The five days start when the payment lands and the scope is already written. I c
 
 You send one of these.
 
-**Contract or zkVM.** One contract family, one merged diff under 800 changed lines, or one guest program plus the verifier that checks it. The deliverable is a private Foundry repo.
+**Contract or zkVM.** One contract family, one merged diff under 800 changed lines, or one guest program plus the verifier that checks it. The deliverable is a report: each finding, the evidence, and the fix. Contracts and zk keep the failing test in a private Foundry repo. Web and agents do not ship a detector.
 
-**Web app.** One staging application, one role, and the flows named in writing. Production is out unless the scope says so, and even then there is no destructive test. The deliverable is a private repo of requests, expected state, and observed state.
+**Web app.** One staging application, one role, and the flows named in writing. Production is out unless the scope says so, and even then there is no destructive test. The deliverable is a report: each finding, the request and the state, and the fix. No scanner left running.
 
-**AI agent.** One staging chat or tool endpoint. The scope names the tools, the documents, and the tenants. The deliverable is a private repo of tool logs and environment checks. A model sentence alone is not a finding.
+**AI agent.** One staging chat or tool endpoint. The scope names the tools, the documents, and the tenants. The deliverable is a report: each finding, the tool log and the record after the call, and the fix. A model sentence alone is not a finding. No program that keeps probing the agent.
 
 A second surface is a second pack, same price, only after the first repo was delivered.
 
 ## What you get
 
-- a property table for the named surface
-- a failing test or a recorded request when a named property breaks
+- a report: each finding, the evidence, and the fix
+- on contracts and zk, a test that fails before the patch and passes after
+- on web and agents, the request or the tool log and the state after
 - one walkthrough
-- a fix re-run for 14 days after delivery, no second invoice
+- the same checks re-run for 14 days after delivery, no second invoice
 
 ## What this is not
 
