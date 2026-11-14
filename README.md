@@ -36,6 +36,10 @@ Each pack includes a property table, a failing test or a request log when a name
 
 The AI lab note in [AI.md](AI.md) is the same kind of sample. Teaching results. Not a finding against a live product.
 
+## License
+
+Profile text, the service terms, and the class notes are MIT, copyright 2026 Furkan Derse. The RISC Zero sample stays Apache-2.0. See [licenses](https://dersefurkan.github.io/info/licenses.html).
+
 ## The limit
 
 This is a security review of the named surface. A green result means the tested properties held under the tested conditions. It is not a claim that the product is safe.
