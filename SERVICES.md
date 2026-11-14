@@ -1,6 +1,6 @@
 # Services
 
-One surface. Five business days. **$1,500.** USDC or bank transfer. Invoice on request.
+One surface. Five business days. **$750.** USDC or bank transfer. Invoice on request.
 
 The five days start when the payment lands and the scope is already written. I confirm the surface fits before you pay, within one business day.
 

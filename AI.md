@@ -1,6 +1,6 @@
 # AI agent pack
 
-One staging chat or tool endpoint. The tools, documents, and tenants named in the scope. **$1,500.** Five business days.
+One staging chat or tool endpoint. The tools, documents, and tenants named in the scope. **$750.** Five business days.
 
 The question is whether untrusted text changes a tool call or a record. The model’s sentence is not the proof. The tool log and the state after the call are the proof.
 

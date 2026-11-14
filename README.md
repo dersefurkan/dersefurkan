@@ -1,6 +1,6 @@
 # Furkan Derse
 
-One surface. Five business days. **$1,500.** The deliverable is a private repo and a walkthrough, not a PDF and not an audit stamp.
+One surface. Five business days. **$750.** The deliverable is a private repo and a walkthrough, not a PDF and not an audit stamp.
 
 Site: [dersefurkan.github.io](https://dersefurkan.github.io) · dersefurkan32@gmail.com · Telegram [@FURY_Fn](https://t.me/FURY_Fn)
 
@@ -10,9 +10,9 @@ A written scope comes before any test. I do not test systems I am not hired to r
 
 | Surface | What you send | Price |
 | --- | --- | --- |
-| Contract or zkVM seam | One contract family, one diff under 800 lines, or one guest plus its verifier | $1,500 |
-| Web app | One staging app, one role, the flows named in the scope | $1,500 |
-| AI agent | One staging chat or tool endpoint, the tools and data named in the scope | $1,500 |
+| Contract or zkVM seam | One contract family, one diff under 800 lines, or one guest plus its verifier | $750 |
+| Web app | One staging app, one role, the flows named in the scope | $750 |
+| AI agent | One staging chat or tool endpoint, the tools and data named in the scope | $750 |
 
 A second surface is a second pack, after the first repo is delivered. Terms: [SERVICES.md](SERVICES.md).
 
